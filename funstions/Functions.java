@@ -40,9 +40,10 @@ public class Functions {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        // String name = sc.next();
-        // printMyName(name);
+        try (Scanner sc = new Scanner(System.in)) {
+            int n = sc.nextInt();
+            printFactorial(n);
+        }
 
         // int a = sc.nextInt();
         // int b = sc.nextInt();
@@ -54,8 +55,6 @@ public class Functions {
         // int product = calculateProduct(a, b);
         // System.out.println("Product of 2 nos is "+product);
 
-        int n = sc.nextInt();
-        printFactorial(n);
 
 
     }
