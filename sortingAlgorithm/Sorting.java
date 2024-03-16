@@ -1,4 +1,4 @@
-package sortingAlgorithm;
+// package sortingAlgorithm;
 
 public class Sorting {
 
